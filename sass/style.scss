@@ -1,1 +1,19 @@
 @import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+.listing-enter {
+  opacity: 0.01;
+}
+
+.listing-enter.listing-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.listing-leave {
+  opacity: 1;
+}
+
+.listing-leave.listing-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
